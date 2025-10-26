@@ -5,7 +5,7 @@ from openai import OpenAI
 MODEL_ID = "gpt-4.1-mini-2025-04-14"
 TIMEOUT  = 600
 
-API_KEY  = ""
+API_KEY  = "sk-REPLACE_ME"
 if not API_KEY:
     raise RuntimeError("OPENAI_API_KEY is not set.")
 INPUT_CSV = "satbench_test.csv"
